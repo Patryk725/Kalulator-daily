@@ -21,10 +21,13 @@ input[type=submit]{
     color: goldenrod;
     transition: all 0.5s ease-in-out;
     outline: none;
+    border-radius: 1em;
 }
 
 input[type="submit"]:hover{
     color: rgb(255, 217, 0);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    background-color: goldenrod;
+    color: black;
 }
