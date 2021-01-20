@@ -1,5 +1,5 @@
-    min = 50;
-    max = 200;
+    min = 15;
+    max = 250;
     x = Math.random() * (max - min) + min;
     x = Math.round(x);
     x = Math.ceil(x / 10) * 10;
@@ -33,5 +33,10 @@ function minus()
         ile += 10;
         document.getElementById("made").innerHTML = "Zrobiłeś: " + ile;
     }
+}
 
+function zero()
+{
+    ile=0;
+    document.getElementById("made").innerHTML = "Zrobiłeś: " + ile;
 }
