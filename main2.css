@@ -52,6 +52,13 @@ input[type="button"]{
     color: yellow;
 }
 
+#make:hover{
+    color: gold;
+    text-shadow: 1px 1px 1px goldenrod;
+    font-weight: 300;
+    cursor: pointer;
+}
+
 #back{
     width: 6rem;
     height: 6rem;
