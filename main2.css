@@ -22,11 +22,14 @@ legend{
     text-align: center;
     border: 1rem solid gold;
     padding: 2rem;
+    user-select: auto;
 }
 
 fieldset{
     border: 1rem solid goldenrod;
     padding: 3rem;
+    user-select: none;
+
 }
 
 p{
@@ -60,6 +63,7 @@ input[type="button"]{
     position: absolute;
     top: 20px;
     left: 20px;
+    user-select: none;
 }
 
 img{
