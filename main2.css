@@ -23,13 +23,14 @@ legend{
     border: 1rem solid gold;
     padding: 2rem;
     user-select: text;
+    background-color: black;
 }
 
 fieldset{
     border: 1rem solid goldenrod;
     padding: 3rem;
     user-select: none;
-
+    background-color: #101010;
 }
 
 p{
@@ -53,10 +54,11 @@ input[type="button"]{
 }
 
 #make:hover{
-    color: gold;
-    text-shadow: 1px 1px 1px goldenrod;
+    background-color: goldenrod;
+    color: black;
     font-weight: 300;
     cursor: pointer;
+    transition: all 0.15s ease-out;
 }
 
 #back{
