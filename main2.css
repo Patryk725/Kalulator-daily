@@ -22,7 +22,7 @@ legend{
     text-align: center;
     border: 1rem solid gold;
     padding: 2rem;
-    user-select: auto;
+    user-select: text;
 }
 
 fieldset{
@@ -64,14 +64,22 @@ input[type="button"]{
     top: 20px;
     left: 20px;
     user-select: none;
+    transition: all 0.3s ease-out;
 }
 
 img{
     width: 4rem;
     height: 4rem;
-    
+    transition: all 0.4s ease-out;
+
 }
 
 #back:hover{
     background-color: gold;
+    transition: all 0.3s ease-out;
+}
+
+#back:hover img{
+    transform: rotate(360deg);
+    transition: all 0.5s ease-out;
 }
