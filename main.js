@@ -1,5 +1,5 @@
     min = 50;
-    max = 150;
+    max = 500;
     x = Math.random() * (max - min) + min;
     x = Math.round(x);
     x = Math.ceil(x / 10) * 10;
