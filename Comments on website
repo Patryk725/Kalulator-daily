@@ -1,0 +1,9 @@
+# Site randomizes reps of push ups you must do till the end of the day;
+# Number of reps are in range from 15 to 250;
+# It has basic responsivenes but it doesn't have any local storage, because
+# I tried to focus on look (CSS) of the website and to master my HTML skills;
+
+# App was made to encourage my friends to do some activity and stay healthy
+during quarantine; <!-- It didn't work -->
+
+# But At least I had an occasion to work on my skills, try JavaScript and work with GitHub;
